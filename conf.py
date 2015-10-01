@@ -33,25 +33,17 @@ import shlex
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
-    # 'hieroglyph',
-    '''
-        hieroglyph is used to generate html slides, needs to be installed for use,
-        see https://github.com/nyergler/hieroglyph
-    '''
+    #'hieroglyph',
+    #  hieroglyph is used to generate html slides, needs to be installed for use,
+    #  see https://github.com/nyergler/hieroglyph
     #'ggbextension.ggb',
-    '''
-        Extension for embedding geogebra applets, see README.txt in ggbextension folder
-    '''
+    #  Extension for embedding geogebra applets, see README.txt in ggbextension folder
     #'toggleblock.toggleBlock',
-    '''
-        Extension for toggleable blocks of text (click to show/hide).
-        See README.txt in toggleblock-extension folder.
-    '''
+    # Extension for toggleable blocks of text (click to show/hide).
+    # See README.txt in toggleblock-extension folder.
     #'sagecell.sagecell',
-    '''
-        Extension for embedding sage cells (https://sagecell.sagemath.org/).
-        See README.txt in sagecell-extension folder.  
-    '''
+    # Extension for embedding sage cells (https://sagecell.sagemath.org/).
+    # See README.txt in sagecell-extension folder.  
 ]
 
 # The mathjax path needs to be set to https in order to work on notendur.hi.is, it can be changed here to suit other needs 
