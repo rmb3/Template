@@ -36,19 +36,20 @@ extensions = [
     #'hieroglyph',
     #  hieroglyph is used to generate html slides, needs to be installed for use,
     #  see https://github.com/nyergler/hieroglyph
-    #'ggbextension.ggb',
+    'ggbextension.ggb',
     #  Extension for embedding geogebra applets, see README.txt in ggbextension folder
-    #'toggleblock.toggleBlock',
+    'toggleblock.toggleBlock',
     # Extension for toggleable blocks of text (click to show/hide).
     # See README.txt in toggleblock-extension folder.
-    #'sagecell.sagecell',
+    'sagecell.sagecell',
     # Extension for embedding sage cells (https://sagecell.sagemath.org/).
     # See README.txt in sagecell-extension folder.  
 ]
 
 # The mathjax path needs to be set to https in order to work on notendur.hi.is, it can be changed here to suit other needs 
 # (http://sphinx-doc.org/latest/ext/math.html#confval-mathjax_path)
-mathjax_path = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+#mathjax_path = "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+mathjax_path = "MathJax.js"
 
 
 # Add any paths that contain templates here, relative to this directory.
