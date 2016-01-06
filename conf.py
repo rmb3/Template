@@ -32,7 +32,11 @@ import shlex
 # ones.
 extensions = [
     'sphinx.ext.todo',
-    'sphinx.ext.mathjax',
+    # For some reason there seems to be a conflict between mathjax and 
+    # other extensions causing non-proper rendering of LaTeX math code.
+    # To avoid these errors we use the extension pngmath.
+    # For the document to render properly dvipng must be uninstalled from your system
+    'sphinx.ext.pngmath',
     #'hieroglyph',
     #  hieroglyph is used to generate html slides, needs to be installed for use,
     #  see https://github.com/nyergler/hieroglyph
