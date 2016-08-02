@@ -33,6 +33,30 @@
 
   
 
+	<!-- hoverrole.py css code -->
+	<style type="text/css">
+		a.tooltip {outline:none; border-bottom: thin dotted; background: #ffeedd}
+		a.tooltip strong {line-height:30px;}
+		a.tooltip:hover {text-decoration:none;} 
+		a.tooltip span {
+		    z-index:10;display:none; padding:14px 20px;
+		    margin-top:-30px; margin-left:12px;
+		    width:310px; line-height:16px;
+		}
+		a.tooltip:hover span{
+		    display:inline; position:absolute; color:#111;
+		    border:1px solid #DCA; background:#fffAF0;}
+		.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+		    
+		/*CSS3*/
+		a.tooltip span
+		{
+		    border-radius:4px;
+		    box-shadow: 5px 5px 8px #CCC;
+		}
+	</style>
+
+
 	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
 	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
     
@@ -130,6 +154,7 @@
 <li class="toctree-l3"><a class="reference internal" href="chapter01.html#r">R</a></li>
 <li class="toctree-l3"><a class="reference internal" href="chapter01.html#sage">Sage</a></li>
 <li class="toctree-l3"><a class="reference internal" href="chapter01.html#octave">Octave</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter01.html#hoverrole-extension">Hoverrole Extension</a></li>
 </ul>
 </li>
 </ul>
