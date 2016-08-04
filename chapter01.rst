@@ -68,4 +68,13 @@ Octave
     A = [ 1, 1, 2; 3, 5, 8; 13, 21, 34 ]
     B = rand (3, 2)
     A*B
+
+Hoverrole Extension
+~~~~~~~~~~~~~~~~~~~
+Þetta er texti um :hover:`stærðfræðigreiningu` og :hover:`afleiðujöfnur, deildajafna`.
+
+Auto-generated list of translated terms:
+
+.. hoverlist::
+
     

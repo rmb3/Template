@@ -33,6 +33,30 @@
 
   
 
+	<!-- hoverrole.py css code -->
+	<style type="text/css">
+		a.tooltip {outline:none; border-bottom: thin dotted; background: #ffeedd}
+		a.tooltip strong {line-height:30px;}
+		a.tooltip:hover {text-decoration:none;} 
+		a.tooltip span {
+		    z-index:10;display:none; padding:14px 20px;
+		    margin-top:-30px; margin-left:12px;
+		    width:310px; line-height:16px;
+		}
+		a.tooltip:hover span{
+		    display:inline; position:absolute; color:#111;
+		    border:1px solid #DCA; background:#fffAF0;}
+		.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+		    
+		/*CSS3*/
+		a.tooltip span
+		{
+		    border-radius:4px;
+		    box-shadow: 5px 5px 8px #CCC;
+		}
+	</style>
+
+
 	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
 	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
     
@@ -118,7 +142,7 @@
           
           
               <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="">Chapter</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Chapter</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#section">Section</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#subsection">Subsection</a></li>
 </ul>
@@ -131,6 +155,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#r">R</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#sage">Sage</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#octave">Octave</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hoverrole-extension">Hoverrole Extension</a></li>
 </ul>
 </li>
 </ul>
@@ -186,9 +211,9 @@
 <h2>Extensions<a class="headerlink" href="#extensions" title="Varanlegur hlekkur á titilinn">¶</a></h2>
 <div class="section" id="mathjax">
 <h3>MathJax<a class="headerlink" href="#mathjax" title="Varanlegur hlekkur á titilinn">¶</a></h3>
-<p>In text <span class="math">2</span> or</p>
+<p>In text <img class="math" src="_images/math/15c663954a3e059d1f876bc8a4621de376038c96.png" alt="2"/> or</p>
 <div class="math">
-<p><span class="math">4+4+3</span></p>
+<p><img src="_images/math/d60a46bedb0e6e756f2256d6ed0988142395d1d5.png" alt="4+4+3"/></p>
 </div></div>
 </div>
 <div class="section" id="sage-cell-extensions">
@@ -223,6 +248,15 @@ def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xe
 <div class='osage'><script type='text/x-sage'>A = [ 1, 1, 2; 3, 5, 8; 13, 21, 34 ]
 B = rand (3, 2)
 A*B</script></div></div>
+<div class="section" id="hoverrole-extension">
+<h3>Hoverrole Extension<a class="headerlink" href="#hoverrole-extension" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Þetta er texti um <a href="http://www.stae.is/os/leita/analysis." class="tooltip" target="_blank">stærðfræðigreiningu<span>en: <i>analysis, mathematical analysis.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> og <a href="http://www.stae.is/os/leita/differential_equation." class="tooltip" target="_blank">afleiðujöfnur<span>en: <i>differential equation.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>.</p>
+<p>Auto-generated list of translated terms:</p>
+<p><em>deildajafna</em> : differential equation.
+</p>
+<p><em>stærðfræðigreining</em> : analysis, mathematical analysis.
+</p>
+</div>
 </div>
 </div>
 

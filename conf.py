@@ -47,7 +47,11 @@ extensions = [
     # See README.txt in toggleblock-extension folder.
     'sagecell.sagecell',
     # Extension for embedding sage cells (https://sagecell.sagemath.org/).
-    # See README.txt in sagecell-extension folder.  
+    # See README.txt in sagecell-extension folder. 
+    'hoverrole.hoverrole'
+    # Extension for providing Icelandic to English translation of mathematical terms
+    # on mouse-over. See README in hoverrole folder.
+
 ]
 
 # The mathjax path needs to be set to https in order to work on notendur.hi.is, it can be changed here to suit other needs 
