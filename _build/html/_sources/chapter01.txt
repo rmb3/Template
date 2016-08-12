@@ -71,7 +71,7 @@ Octave
 
 Hoverrole Extension
 ~~~~~~~~~~~~~~~~~~~
-Þetta er texti um :hover:`stærðfræðigreiningu` og :hover:`afleiðujöfnur, deildajafna`.
+Þetta er texti um :hover:`stærðfræðigreiningu` og :hover:`afleiðujöfnur, deildajafna`. Fleiri hugtök: :hover:`heildi`, :hover:`ferill`, :hover:`vörpun`.
 
 Auto-generated list of translated terms:
 
