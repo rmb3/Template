@@ -77,4 +77,9 @@ Auto-generated list of translated terms:
 
 .. hoverlist::
 
-    
+Sphinx ScrollDepth Extension
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This extension tracks how far users have scrolled on the page. When a new section is scrolled into view a Google Analytics event is fired. These events can be seen in real time in the Javascript console (Chrome: CTRL+Shift+I OR Options-> More Tools -> Developer Tools).
+
+Don't forget to replace the tracking code snippet with your own. Your tracking code can be found at analytics.google.com under Admin-> Tracking Info-> Tracking Code.
+  
