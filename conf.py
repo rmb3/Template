@@ -51,7 +51,9 @@ extensions = [
     'hoverrole.hoverrole',
     # Extension for providing Icelandic to English translation of mathematical terms
     # on mouse-over. See README in hoverrole folder.
-    'scrolldepth.scrolldepth'
+    'scrolldepth.scrolldepth',
+    'panoptoextension.panopto'
+    # Extension to embed videos from panopto
 
 ]
 
